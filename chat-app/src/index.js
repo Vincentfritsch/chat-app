@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
+import Contact from "./components/Contact";
+import './components/Contact.css';
 
 ReactDOM.render(
   <React.StrictMode>
-
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );
