@@ -1,4 +1,5 @@
 import Contact from './Contact';
+import React from 'react';
 const users = [
     {
       name: 'Robert Reyes',
