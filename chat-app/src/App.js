@@ -3,7 +3,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-  <>
+  <div>
        <Contact
           avatar = "https://randomuser.me/api/portraits/women/47.jpg"
           name = "Beverley Barrett"
@@ -19,7 +19,7 @@ function App() {
         name = "Letitia Gibson"
         online = {true}
         />
-    </>
+    </div>
   );
 }
 
