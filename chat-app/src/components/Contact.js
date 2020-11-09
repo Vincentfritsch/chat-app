@@ -5,7 +5,7 @@ function Contact(props) {
     return (
            <div className="Contact">
                 <img className="avatar" src={props.avatar}
-                     alt="Woman"/>
+                     alt={props.name}/>
                 <div>
                     <p className="name">{props.name}</p>
                     <div className="status">
